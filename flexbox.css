@@ -1,0 +1,96 @@
+body{
+  background-color:  hsl(0, 0%, 95%);
+}
+main{
+  width: 80%;
+  display: flex;
+  margin-top: 10%;
+  margin-left:auto;
+  margin-right: auto;
+}
+
+.first{
+  background-color:hsl(31, 77%, 52%);
+ 
+  padding: 40px;
+}
+.second {
+  background-color: hsl(184, 100%, 22%);
+  padding: 40px;
+}
+.third {
+  background-color:hsl(179, 100%, 13%);
+  padding: 40px;
+}
+h3{
+  padding: 5px;
+  font-weight: bold;
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 25px;
+  font-weight: 700;
+  font-family:  'Times New Roman';
+}
+p{
+color: hsla(0, 0%, 100%, 0.75);
+padding: 5px;
+font-size: 15px;
+}
+button{
+  background-color:  hsl(0, 0%, 95%);
+  padding: 5px;
+  margin:auto;
+  border-radius: 14px;
+  font-size: 17px;
+}
+#sebutton{
+  color: hsl(31, 77%, 52%);
+  width: 80%;
+}
+#subutton{
+color: hsl(184, 100%, 22%);  
+width: 80%;
+}
+#lubutton{
+  color:hsl(179, 100%, 13%);
+  width: 80%;
+}
+.grid_btn{
+  background-color: steelblue;
+  width: 40%;
+}
+#a_grid{
+  text-decoration: none;
+    color: aliceblue;
+}
+div > button{
+margin-left: 30%;
+margin-top: 20%;
+}
+#sebutton:hover{
+  background-color: hsl(31, 77%, 52%);
+  color: hsl(0, 0%, 95%);
+  transition: 0.5s;
+  border-radius: 50px;
+  
+  width: 100%;
+}
+
+#subutton:hover {
+  background-color: hsl(184, 100%, 22%);
+  color: hsl(0, 0%, 95%);
+  transition: 0.5s;
+  border-radius: 50px;
+
+  width: 100%;
+}
+
+#lubutton:hover {
+  background-color: hsl(179, 100%, 13%);
+  color: hsl(0, 0%, 95%);
+  transition: 0.5s;
+  border-radius: 50px;
+
+  width: 100%;
+}
+
+
